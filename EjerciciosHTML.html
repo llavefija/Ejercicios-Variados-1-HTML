@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas y Encabezados</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Variedad de ejercicios básicos para HTML 5</h1>
+    <h4>A lo largo de la página se han realizado 5 ejercicios diferentes:</h4>
+    <ol>
+        <li>Encabezados de diferentes tamaños</li>
+        <li>Tipos de listas en HTML
+            <ol>
+                <li>Listas Desordenadas</li>
+                <li>Listas Ordenadas</li>
+            </ol>
+        </li>
+        <li>Tablas en HTML</li>
+        <li>Recreación de un Currículum en HTML</li>
+        <li>Formato de un artículo en HTML</li>
+    </ol>
+    <hr> 
+</header>
+
+<main>
+    <section>
+        <h1>Ejercicio número 1: Encabezados del h1 al h6 (1)</h1>
+        <h2>Ejercicio número 1: Encabezados del h1 al h6 (2)</h2>
+        <h3>Ejercicio número 1: Encabezados del h1 al h6 (3)</h3>
+        <h4>Ejercicio número 1: Encabezados del h1 al h6 (4)</h4>
+        <h5>Ejercicio número 1: Encabezados del h1 al h6 (5)</h5>
+        <h6>Ejercicio número 1: Encabezados del h1 al h6 (6)</h6>
+        <hr> 
+    </section>
+
+    <section>
+        <h1>Ejercicio número 2: Tipos de listas en HTML (Lista desordenada)</h1>
+        <ul>
+            <li>Perro</li>
+            <li>Gato</li>
+            <li>Aves
+                <ul>
+                    <li>Canario</li>
+                    <li>Loro</li>
+                </ul>
+            </li>
+            <li>Hamster</li>
+        </ul>
+        <hr> 
+
+        <h1>Ejercicio número 2: Tipos de listas en HTML (Lista ordenada)</h1>
+        <ol>
+            <li>Preparar la mochila
+                <ol>
+                    <li>Sacar los libros de ese día</li>
+                    <li>Introducir los libros del día siguiente</li>
+                </ol>
+            </li>
+            <li>Vestirme</li>
+            <li>Lavarme los dientes</li>
+            <li>Ir a la escuela</li>
+        </ol>
+        <hr> 
+    </section>
+
+    <section>
+        <h1>Ejercicio número 3: Tablas en HTML</h1>
+        <table border="1" style="text-align: center; border-collapse: collapse; background: snow; width: 100%;">
+            <tr>
+                <td colspan="4" style="background: lightblue; padding: 6px;">DIFERENCIAS ENTRE EL PERRO Y EL HOMBRE</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="padding: 6px;">DIFERENCIAS</td>
+                <td colspan="2" style="padding: 6px;">PERRO</td>
+                <td rowspan="2" style="padding: 6px;">HOMBRE</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">PEQUEÑO</td>
+                <td style="padding: 6px;">GRANDE</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">Duración de crecimiento</td>
+                <td style="padding: 6px;">10 meses</td>
+                <td style="padding: 6px;">18 a 24 meses</td>
+                <td style="padding: 6px;">16 años</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">Tiempo de gestación</td>
+                <td colspan="2" style="padding: 6px;">58 a 63 días</td>
+                <td style="padding: 6px;">9 meses</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">Duración de vida del pelo/cabello</td>
+                <td colspan="2" style="padding: 6px;">1 año</td>
+                <td style="padding: 6px;">2 a 7 años</td>
+            </tr>
+        </table>
+        <hr>
+    </section>
+
+    <section>
+        <h1>Ejercicio número 4: Recreación de un Currículum en HTML</h1>
+        
+        <div style="width: 100%; padding: 15px; border: 1px solid black; border-radius: 5px; background: #cdcdcd;">
+        
+        <h1 style="text-align: center; margin-top: 0;">ABEL CUMBREÑO</h1>
+        
+        <hr>
+        
+        <div style="display: flex; justify-content: space-between;">
+            <!-- Bio, contacto y redes -->
+            <div style="width: 65%; padding-right: 20px;">
+                <p style="text-align: justify">
+                    Desde que era niño, mi pasión por la informática se ha alimentado de mi interés por los videojuegos y la curiosidad por comprender cómo están construidas las cosas detrás de escena. Esta fascinación natural por el funcionamiento de la tecnología me llevó a descubrir el mundo de la programación.<br><br>
+                    
+                    Aunque poseo conocimientos tanto en sistemas informáticos como en desarrollo frontend, mi verdadera motivación siempre ha sido el desarrollo backend, donde encuentro un gran desafío y satisfacción al crear soluciones sólidas y eficientes.
+                </p>
+                
+                <p>+34 646 85 86 57 | abelcumbrenobalmes@gmail.com | 08191 Rubí, Barcelona</p>
+                
+                <p><a href="https://github.com/llavefija">GITHUB</a> | <a href="https://www.linkedin.com/in/abelcp/">LINKEDIN</a> </p>
+            </div>
+            
+            <!-- Foto a la derecha -->
+            <div style="width: 30%; text-align: center;">
+               <img src="C:\Users\abelc\Desktop\EjerciciosHTML\user_square_icon.png" alt="Foto de perfil" style="width: 100%; border-radius: 5px;">
+            </div>
+        </div>
+        
+        <hr>
+
+        <!-- Sección de experiencia a la izquierda y estudios/habilidades/idiomas a la derecha -->
+        <div style="display: flex; justify-content: space-between; margin-top: 15px;">
+            <!-- Experiencia -->
+            <div style="width: 45%;">
+                <h3>EXPERIENCIA</h3>
+                <h4>Data Analyst</h4>
+                <h5>Consultoria A (2023-2024)</h5>
+                <ul>
+                <li>Encargado de mejorar y solucionar errores en la logica del codigo.</li>
+                <li>Manejo de la BBDD del equipo y del cliente.</li>
+                <ul>
+                <li>Apliar datos y mantenerlo actualizado.</li>
+                <li>Comprobar errores y aplicar soluciones.</li>
+                </ul>
+                </ul>
+                <h4>Dependiente</h4>
+                <h5>Tienda B (2020-2022)</h5>
+                <ul>
+                <li>Ordenar tienda.</li>
+                <li>Atender a los clientes.</li>
+            </div>
+            
+            <div style="width: 45%;">
+                <h3>ESTUDIOS</h3>
+                <h4>DAM</h4>
+                <h5>Instituto C (2022-2024)</h5>
+                <ul>
+                <li>Programacion orientada a objetos.</li>
+                <li>Control y desarrollo de base de datos.</li>
+                </ul>
+                <h3>HABILIDADES</h3>
+                <ul>
+                    <li>Programacion: Java, Python, SQL</li>
+                    <li>Desarrollo Web: HTML, CSS, JavaScript</li>
+                </ul>
+
+                <h3>IDIOMAS</h3>
+                <ul>
+                    <li>Español</li>
+                    <li>Inglés</li>
+                    <li>Catalan</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section>
+            <h1>Ejercicio número 5: Formato de un artículo en HTML</h1>
+            
+            <h1>Drácula: de mito literario a icono pop</h1>
+
+    <h2>La sangre es la vida</h2>
+
+    <p>
+        Muchos han escuchado esta frase de boca de un actor mientras veían alguna de las múltiples versiones cinematográficas que se han realizado sobre el legendario vampiro. No tantos la han leído en el libro. «La respuesta más frecuente a la pregunta “¿has leído <strong><em>Drácula</em></strong>?” suele ser “no, pero he visto la película”», apunta <strong>Clive Leatherdale</strong>, uno de los mayores expertos en la materia, en su ensayo <em>Historia de Drácula</em> (Arpa, 2019). «La consecuencia de la gradación lasciva que el cine ha hecho de la novela de Stoker y de la dominación completa de su imagen pública es que mientras Drácula se ha convertido en un nombre conocido, su creador ha caído en el olvido. Uno de los libros más famosos de la literatura universal lleva la firma de uno de los autores más desconocidos».
+    </p>
+
+    <p>
+        Si Stoker viviera sería un tipo millonario gracias a las regalías de <strong>las películas, las series, los cómics, la mercadotecnia</strong>, pero infeliz porque su creación ha sido sobrepasada y trivializada desde la aparición de un invento patentado por los <strong>hermanos Lumière</strong> dos años antes de la aparición de su novela en 1897.
+    </p>
+
+    <h2>Origen y evolución</h2>
+
+    <p>
+        El viaje de Drácula desde las páginas de aquella primera edición con vistosas tapas amarillas hasta el <strong>monstruo pop</strong> en que se ha convertido <a href="https://caixaforum.es/madrid"> queda de manifiesto en la exposición </a>  <strong><em>Vampiros. La evolución del mito<em></strong> (en <a href="https://caixaforum.es/madrid"> CaixaForum Madrid </a> hasta el 7 de junio), muy centrada en el séptimo arte (carteles, diseño de producción, vestuario), pero también en los tebeos y en la representación chupóptera de banqueros y políticos que se asoma a las portadas de revistas satíricas como <em>Charlie Hebdo</em>. Aunque no se olvida del folclore ni de la literatura, y en el recorrido hay vitrinas que guardan auténticos tesoros, como el manuscrito de Bram Stoker de la adaptación teatral de la novela o primerísimas ediciones de las seminales <em>Carmilla</em> de <strong>Joseph Sheridan Le Fanu</strong>, y El vampiro, de <strong>John William Polidori</strong>.
+    </p>
+
+    <p>
+        El origen de los vampiros se pierde en la noche de los tiempos. Hay pocos pueblos de la antigüedad que no tengan su propia versión de esta terrible plaga asociada a los misterios de la noche, las fantasías humanas (<strong>«El sueño de la razón produce monstruos»</strong>, como reza el conocido grabado de <strong>Goya</strong>) y la creencia en la vida después de la muerte y en el poder mágico de la sangre. Dice el doctor <strong>Van Helsing</strong>, némesis del rey de las tinieblas, en <em>Drácula</em>: «Dejen que les diga que [al vampiro] lo han conocido en todos los lugares donde el hombre ha habitado. En la antigua Grecia, en la antigua Roma, existió en Alemania, en Francia, en la India, incluso en el Quersoneso y en China (...). Ha seguido la estela de los berserkers islandeses, de los hunos engendrados por el diablo, de los eslavos, de los sajones y de los magiares».
+    </p>
+
+    </section>
+</main>
+
+</body>
+</html>
